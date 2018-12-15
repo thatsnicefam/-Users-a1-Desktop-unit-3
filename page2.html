@@ -3,15 +3,52 @@
 <head>
 <title>Page Title</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-</head>
+
+
 <style type="text/css">
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
 div { border: 0px solid black; }
 body {
   background-color: #4dd2ff;
 }
 </style>
-
+</head>
 <body>
+
+  <ul>
+    <li><a href="page2.html" class="w3-button w3-black w3-block w3-hover-blue w3-padding-16">page 2</a></li>
+    <li><a href="page3.html" class="w3-button w3-black w3-block w3-hover-red w3-padding-16">page 3</a></li>
+    <li style="float:right"><a class="active">it's pretty cool</a></li>
+</ul>
+
+      
+      
 <div style="cursor: crosshair">
  <font face = "Comic sans MS" size =" 5"><h2>Why you should become a computer programmer</h2>
 <p style="background-color:SlateBlue;">With the skills and knowledge you gain from studying programming, you will be able to build just about anything! Your creativity really is your limit. Whether you want to build a program that will help you quickly and easily rename and sort 5,000 newly downloaded photos from your overseas holiday, or you want to create a program that will keep track of your finances, as a programmer, you will be able to do it!
@@ -25,3 +62,5 @@ Programming is also an entrepreneur’s very best friend. Imagine taking your bu
   </body>
   
 </html>
+
+
